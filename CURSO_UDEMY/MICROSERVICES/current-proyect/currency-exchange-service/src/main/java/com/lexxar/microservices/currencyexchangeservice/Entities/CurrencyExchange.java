@@ -6,16 +6,16 @@ public class CurrencyExchange {
     private Long id;
     private String from;
     private String to;
-    private BigDecimal conersionMultiple;
+    private BigDecimal conversionMultiple;
 
     public CurrencyExchange() {
     }
 
-    public CurrencyExchange(Long id, String from, String to, BigDecimal conersionMultiple) {
+    public CurrencyExchange(Long id, String from, String to, BigDecimal conversionMultiple) {
         this.id = id;
         this.from = from;
         this.to = to;
-        this.conersionMultiple = conersionMultiple;
+        this.conversionMultiple = conversionMultiple;
     }
 
     public Long getId() {
@@ -43,10 +43,10 @@ public class CurrencyExchange {
     }
 
     public BigDecimal getConersionMultiple() {
-        return conersionMultiple;
+        return conversionMultiple;
     }
 
     public void setConersionMultiple(BigDecimal conersionMultiple) {
-        this.conersionMultiple = conersionMultiple;
+        this.conversionMultiple = conersionMultiple;
     }
 }
